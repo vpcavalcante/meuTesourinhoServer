@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">  
+    <title>Meu Tesourinho</title> 
+</head>
+
+<body>
+  <header class="container">  
+      <nav class="navbar navbar-dark" style= "background-color: #34377A";>
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">
+          <img src="images/bau.svg" width="60=" height="40" alt="logo">
+          Meu Tesourinho
+        </a>
+    
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+          aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+      
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Para quem é</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Como usar</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Depoimentos</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+          </ul>
+          <!-- Links -->
+      
+        </div>
+        <!-- Collapsible content -->
+      
+      </nav>
+      <!--/.Navbar--> 
+    </header>
+    <section>
+    <!---Título da Página-->
+    <div>
+        <br>
+        <h1 class="title-faq">Você tem alguma dúvida?</h1>
+    </div>
+    <!--Perguntas/Dúvidas-->
+    <div class= "row" id ="faq">
+        <div class="col-1"></div>
+          <div class="col-10">
+               <h2 class= "faq" data-toggle="collapse" data-target= "#first-question">Quais são as formas de pagamento?</h2>
+               <p class= "reply" id= "first-question" class= "collapse in">O pagamento pode ser realidade mensalmente com cartão de crédito, débito ou boleto.</p>
+               <h2 class= "faq" data-toggle="collapse" data-target= "#second-question">Como funciona a plataforma?</h2>
+               <p class= "reply" id= "second-question" class= "collapse in">O usuário define um objetivo e segue uma trilha de desafios para alcançar o seu tão esperado tesourinho.</p>
+               <h2 class= "faq" data-toggle="collapse" data-target= "#third-question">Qual é a idade recomendada para começar a usar?</h2>
+               <p class= "reply" id= "third-question" class= "collapse in">A plataforma é recomendada para crianças a partir de 10 anos.</p>
+               <h2 class= "faq" data-toggle="collapse" data-target= "#fourth-question">Como conseguir novas skins para o seu avatar?</h2>
+               <p class= "reply" id= "fourth-question" class= "collapse in">Conforme o usuário for avançando as trilhas e concluindo desafios, as skins serão liberadas no seu perfil.</p>
+               <br>
+           </div>
+           <br>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    </section>
+    <!--Formulário de Contato-->
+    <section>
+    <div class= "row" id ="form">
+        <div class="col-1"></div>
+        <div class="col-10" id= "form">
+            <form action= "" method="POST">
+                <h1 class="contact-form">Entre em contato com a gente!</h1>
+                <label for= "name">Nome Completo:</label>
+                <br>
+                <input class= "form-control" type="text" id="name" placeholder="Nome">
+                <br>
+                <label for= "e-mail">E-mail:</label>
+                <br>
+                <input class= "form-control" type="e-mail" id="e-mail" placeholder="E-mail">
+                <br>
+                <label for= "phone">Telefone:</label>
+                <br>
+                <input class= "form-control" type="number" id="phone" placeholder="Telefone">
+                <br>
+                <div class="radio">
+                    <label><input type="radio" name="type-client" checked> Já sou cliente </label>
+                    <label><input type="radio" name="type-client"> Não sou cliente </label>
+                </div>
+                <select class="form-control">
+                    <option disabled selected>Assunto</option>
+                    <option>Quero tirar dúvidas com um consultor</option>
+                    <option>Problemas com Pagamento</option>
+                    <option>Problemas com a Plataforma</option>
+                    <option>Outro</option>
+                    <option>Elogios</option>
+                </select>
+                <br>
+                <label for= "message">Mensagem:</label>
+                <br>
+                <input class= "form-control" type="text" id="message" placeholder="Mensagem">
+                <br>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <br>
+    </section>
+    <!--Rodapé com Mapa do Site-->
+<footer class="footer footer-dark" style= "background-color: #34377A">
+    <div class="container">
+      <div class="row">
+          <br>
+            <!--Mapa do Site-->
+            <div class= "col-4" id ="sitemap">
+                <br>
+                <!--Logo-->
+                <img src="images/bau.svg" width="60=" height="40" alt="logo">
+                <br>
+                <a class="f-link" href="#">Login</a>
+                <br>
+                <a class="f-link" href="#">Quem Somos</a>
+                <br>
+                <a class="f-link" href="#">Para quem é</a>
+                <br>
+                <a class="f-link" href="#">Como usar</a>
+                <br>
+                <a class="f-link" href="#">Depoimentos</a>
+                <br>
+                <a class="f-link" href="#">Comece agora</a>
+                <br>
+             </div>
+            <!--Redes Socias-->
+            <div class= "col-4" id ="social-media">
+                <br>
+                <a class="f-link" href="#">Facebook</a>
+                <br>
+                <a class="f-link" href="#">Instagram</a>
+                <br>
+                <a class="f-link" href="#">Linkedin</a>
+                <br>
+             </div>
+            <!--Contatos-->
+            <div class= "col-4" id= "contact-area">
+                <br>
+                <a class="f-link" href="#">E-mail</a>
+                <br>
+                <a class="f-link" href="#">WhatsApp</a>
+             </div>
+      </div>
+      <br>
+      <div class="row">
+          <div class= "col-12">
+              <p class="copyright">Copyright 2021</p>
+          </div>
+      </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
