@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var dashboardRouter = require('./routes/dashboard');
 var faqRouter = require('./routes/faq');
-var contatoRouter = require('./routes/contato');
+var contatoRouter = require('./routes/contato')
 
 var app = express();
 
