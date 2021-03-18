@@ -4,8 +4,13 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: white;
 }
+
+collapse navbar-collapse {
+  color: white
+}
+
 h1.title-faq {
   color:#34377A;
   font-weight: bold;
