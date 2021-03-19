@@ -1,9 +1,10 @@
-var express = require('express');
-var router = express.Router();
-
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('dashboard');
-});
+const express = require('express');
+const router = express.Router();
+const controller = require('../controllers/dashboard')
+/* GET dashboard. */
+router.get('/', controller.dashboard);
 
 module.exports = router;
+
+
+
