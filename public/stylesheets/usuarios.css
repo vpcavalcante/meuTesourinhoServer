@@ -1,0 +1,115 @@
+.nav-item{
+    display: flex;
+}
+
+
+.configdiv {border: 1px solid #5603b4;
+    margin-right: 28px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+
+.input-group-text{
+
+    color: #5603b4;
+}
+
+.btn-btn-primary{
+    background-color: rgb(208, 202, 226);
+    margin: 0% auto;
+    padding: auto;
+    border: 2px solid  #5603b4 ;
+   
+    
+}
+
+h1{
+    text-align: center  ;
+}
+
+.avatar{
+    border: solid;
+    border-radius: 60%;
+    margin-left: 300px;
+}
+
+.nav-item{
+    @media (max-widith:460px)
+}
+
+.textsenha{
+    text-align: center;
+}
+
+#menu1{
+
+    text-align: center;
+    border: solid 1px #FFA746;
+    background-color: #ffa6465e;
+    border-radius: 10px;
+}
+
+.titulosh3{
+    font-family: garamond;
+    
+    
+}
+
+#uf{
+    padding-top: 30px;
+}
+.dados{
+   
+    margin: 20px;
+   border: solid 1px #5603b4 ;
+   background-color: #5603b431;
+   border-radius: 10px;
+   
+   
+   
+}
+#menu2{
+    border: solid 1px #33a9ab;
+    background-color: #33a9ab73;
+    border-radius: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#inputPassword6{
+    width: 200%;
+}
+
+#btenviar{
+    width: 100%;
+}
+
+.h2config{
+    
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+#iconeconfig{
+    width:70px;
+    height: 70px;
+}
+
+
+.navbar {
+    background-color: #5603b4!important;
+    font: bold;
+}
+
+#menu3{
+
+    text-align: center;
+    border: solid 1px #FFA746;
+    background-color: #ffa6465e;
+    border-radius: 10px;
+}
+
+
+    
