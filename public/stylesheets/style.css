@@ -25,12 +25,15 @@ form {
 h1.contact-form {
   color:white;
   font-weight: bold;
+  font-size: 25px;
+  text-align: center;
 }
 button.btn-primary {
   background-color: #34377A;
   border:none;
   border-radius:5px;
-  align-content:center;
+  align-self: center;
+  font-weight: bold;
 }
 .faq {
   background-color:#FFA746;
