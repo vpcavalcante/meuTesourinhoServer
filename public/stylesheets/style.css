@@ -1,10 +1,11 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', 14px sans-serif;
 }
 
 a {
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 collapse navbar-collapse {
@@ -13,17 +14,20 @@ collapse navbar-collapse {
 
 h1.title-faq {
   color:#34377A;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 25px;
   text-align: center
 }
 form {
   background-color: #33A9AB;
+  font-family: 'Poppins', sans-serif;
   padding: 2vh;
   color: white;
 }
 h1.contact-form {
   color:white;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 25px;
   text-align: center;
@@ -34,9 +38,11 @@ button.btn-primary {
   border-radius:5px;
   align-self: center;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 .faq {
   background-color:#FFA746;
+  font-family: 'Poppins', sans-serif;
   font-size:15px;
   font-weight: bold;
   align-self: center;
@@ -53,10 +59,12 @@ button.btn-primary {
 }
 a.f-link {
   color: white;
-  font-size: 12px
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
 }
 p.copyright {
   color: white;
+  font-family: 'Poppins', sans-serif;
   font-size: 8px;
   text-align:center
 }
