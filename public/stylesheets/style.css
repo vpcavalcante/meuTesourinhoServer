@@ -7,10 +7,39 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 
+/*Navbar Header*/
 collapse navbar-collapse {
   color: white
 }
 
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center
+}
+
+.login-button {
+    background-color: #141750; 
+    border: none;
+    width: 21vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+  
+.start-button {
+    background-color: #33A9AB; 
+    border:none;
+    width: auto;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/*FAQ*/
 h1.title-faq {
   color:#34377A;
   font-family: 'Poppins', sans-serif;
@@ -24,6 +53,7 @@ form {
   padding: 2vh;
   color: white;
 }
+
 h1.contact-form {
   color:white;
   font-family: 'Poppins', sans-serif;
@@ -49,6 +79,20 @@ h1.contact-form {
 .reply {
   text-align: center
 }
+
+.form-button {
+  background-color: #34377A; 
+  border:none;
+  width: auto;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  width: 15vh;
+}
+
+
+/*Footer*/
 a.f-link {
   color: white;
   font-size: 12px;
@@ -61,52 +105,70 @@ p.copyright {
   text-align:center
 }
 
-.form-button {
-  background-color: #34377A; 
-  border:none;
-  width: auto;
-  border-radius: 4px;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  padding: 5px;
-  width: 15vh
-}
-.login-button {
-  background-color: #141750; 
-  border: none;
-  width: auto;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-}
-
-.start-button {
-  background-color: #33A9AB; 
-  border:none;
-  width: auto;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-}
-
-.navbar-nav {
-display: flex;
-flex-wrap: wrap;
-align-content: center;
-text-align: center
-}
-
-.footer-logo {
-  margin-top: 10px;
-  align-content: center;
-  margin-top: 10px;
+img.footer-logo {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .sitemap {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+  padding-top: 8px;
 }
 
-.f-link {
+a.f-link {
   text-align: center;
   align-self: center
 }
+
+.icon-social {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 6vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons-social {
+  align-content: center;
+  padding: auto;
+
+}
+
+.icon-contact {
+  align-content: center;
+  width: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-area {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 5px;
+}
+
+.fale-conosco {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.link-contact {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+
