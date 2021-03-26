@@ -9,6 +9,9 @@ var indexRouter = require('./routes/index');
 var dashboardRouter = require('./routes/dashboard');
 var faqRouter = require('./routes/faq');
 var contatoRouter = require('./routes/contato')
+var headRouter = require('./routes/head')
+var headerRouter = require('./routes/header')
+var footerRouter = require('./routes/footer')
 
 var app = express();
 
@@ -23,10 +26,14 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-//app.use('/users', usersRouter);
+app.use('/head', headRouter);
+app.use('/header', headerRouter);
+app.use('/footer', footerRouter);
+app.use('/users', usersRouter);
 app.use('/dashboard', dashboardRouter);
 app.use('/faq', faqRouter);
 app.use('/contato', contatoRouter);
+app.use('/index', indexRouter);
 
 
 // catch 404 and forward to error handler

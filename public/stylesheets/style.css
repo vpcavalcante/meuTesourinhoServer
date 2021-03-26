@@ -1,34 +1,70 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', 14px sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
+
+/*Navbar Header*/
+collapse navbar-collapse {
+  color: white
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center
+}
+
+.login-button {
+    background-color: #141750; 
+    border: none;
+    width: 21vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+  
+.start-button {
+    background-color: #33A9AB; 
+    border:none;
+    width: auto;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/*FAQ*/
 h1.title-faq {
   color:#34377A;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 25px;
   text-align: center
 }
 form {
   background-color: #33A9AB;
+  font-family: 'Poppins', sans-serif;
   padding: 2vh;
   color: white;
 }
+
 h1.contact-form {
   color:white;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
+  font-size: 25px;
+  text-align: center;
 }
-button.btn-primary {
-  background-color: #34377A;
-  border:none;
-  border-radius:5px;
-  align-content:center;
-}
+
 .faq {
   background-color:#FFA746;
+  font-family: 'Poppins', sans-serif;
   font-size:15px;
   font-weight: bold;
   align-self: center;
@@ -43,12 +79,96 @@ button.btn-primary {
 .reply {
   text-align: center
 }
+
+.form-button {
+  background-color: #34377A; 
+  border:none;
+  width: auto;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  width: 15vh;
+}
+
+
+/*Footer*/
 a.f-link {
   color: white;
-  font-size: 12px
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
 }
 p.copyright {
   color: white;
+  font-family: 'Poppins', sans-serif;
   font-size: 8px;
   text-align:center
 }
+
+img.footer-logo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sitemap {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-top: 8px;
+}
+
+a.f-link {
+  text-align: center;
+  align-self: center
+}
+
+.icon-social {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 6vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons-social {
+  align-content: center;
+  padding: auto;
+
+}
+
+.icon-contact {
+  align-content: center;
+  width: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-area {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 5px;
+}
+
+.fale-conosco {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.link-contact {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+

@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/faq')
+const controller = require('../controllers/head')
 /* GET home page. */
-router.get('/', controller.faq)
+router.get('/', controller.head)
 
 router.post ("/", function (req,res) {
   console.log (req.body)
