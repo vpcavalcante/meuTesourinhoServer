@@ -1,153 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage Meu Tesourinho</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheets/style-home.css">
-</head>
+<%- include('./partials/head.ejs') %>
 
-<body>
-    <class class="container-fluid">
-        <header>
-            <nav class="navbar navbar-light navbar-1 white">
-
-                <!-- Navbar brand -->
-                <a class="navbar-brand" href="#">Meu Tesourinho</a>
-
-                <!-- Collapse button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-                aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
-                <!-- Collapsible content -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Login<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Para Quem</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Como Usar</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Depoimentos</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Quem Somos</a>
-                    </li>
-                </ul>
-                <!-- Links -->
-
-                </div>
-                <!-- Collapsible content -->
-
-            </nav>
-        <!--/.Navbar--> 
-        </header>
-        
-        <div class="text-center">
-        <img src="#" width=100% class="img-fluid" alt="Banner mostrando mapa do tesouro">
-        </div>
+    <body>
+        <%- include('./partials/header.ejs') %>
+            <class class="container-fluid">
 
 
-        <main class="container-fluid"> <h1>Meu tesourinho</h1>
-            <section class="conteudo">
-
-                <h2> Para Quem</h2>  
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4" >
-                            <p>Destinado a crianças entre 12 e 16 anos</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere molestias molestiae nihil ab velit rerum reiciendis culpa consequatur ea voluptates? Modi deserunt autem quos sit. Mollitia illo vel necessitatibus aspernatur.</p>
-                        </div>
-
-                        <div class="col-md-4" >
-                            <p>Crianças curiosas e que gostam de aprender brincando</p>
-                        </div>
-
-
-                        <div class="col-md-4" >
-                            <p>Crianças que possam cuidar de seu dinheiro</p>
-                        </div>
-                    </div>
-                
-                        
+                <div class="text-center">
+                    <img src="#" width=100% class="img-fluid" alt="Banner mostrando mapa do tesouro">
                 </div>
 
-                <h2>Como usar</h2>
-                <div class="box2"> 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit rerum, ullam reprehenderit officiis omnis nemo dolore ducimus minima quibusdam quidem provident sunt alias sequi atque quae voluptatem architecto pariatur? Vero!</p>
-                    <img src="https://as1.ftcdn.net/jpg/01/57/40/40/500_F_157404003_SsWHKsR1uulOR0nl6CgbCQSYdmTWP3hh.jpg" class="img-fluid" alt="cofrinho">
 
-                </div>
+                <main class="container-fluid">
+                    <h1>Meu tesourinho</h1>
+                    <section class="conteudo">
 
-                
-                <h2>Depoimentos</h2>
+                        <h2> Para Quem</h2>
+
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <p>Destinado a crianças entre 12 e 16 anos</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere molestias
+                                        molestiae nihil ab velit rerum reiciendis culpa consequatur ea voluptates? Modi
+                                        deserunt autem quos sit. Mollitia illo vel necessitatibus aspernatur.</p>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <p>Crianças curiosas e que gostam de aprender brincando</p>
+                                </div>
 
 
-                    <div class="card-group">
-                        <div class="card">
-                            <img src="https://cdn.pixabay.com/photo/2018/02/20/17/50/happiness-3168318__340.jpg" class="card-img-top" alt="criança">
-                            <div class="card-body">
-                                <h5 class="card-title">Vitor</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted"></small></p>
+                                <div class="col-md-4">
+                                    <p>Crianças que possam cuidar de seu dinheiro</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <h2>Como usar</h2>
+                        <div class="box2">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit rerum, ullam reprehenderit
+                                officiis omnis nemo dolore ducimus minima quibusdam quidem provident sunt alias sequi
+                                atque quae voluptatem architecto pariatur? Vero!</p>
+                            <img src="https://as1.ftcdn.net/jpg/01/57/40/40/500_F_157404003_SsWHKsR1uulOR0nl6CgbCQSYdmTWP3hh.jpg"
+                                class="img-fluid" alt="cofrinho">
+
+                        </div>
+
+
+                        <h2>Depoimentos</h2>
+
+
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="https://cdn.pixabay.com/photo/2018/02/20/17/50/happiness-3168318__340.jpg"
+                                    class="card-img-top" alt="criança">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vitor</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted"></small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://media.istockphoto.com/photos/headshot-of-african-descent-teenage-boy-at-home-picture-id1178170274?s=612x612"
+                                    class="card-img-top" alt="criança sorrindo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Caio</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                    <p class="card-text"><small class="text-muted"></small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://media.istockphoto.com/photos/happy-little-girl-having-fun-using-a-computer-at-home-picture-id636691990?s=612x612"
+                                    class="card-img-top" alt="criança">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beatriz</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This card has even longer content than the first
+                                        to show that equal height action.</p>
+                                    <p class="card-text"><small class="text-muted"></small></p>
+                                </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="https://media.istockphoto.com/photos/headshot-of-african-descent-teenage-boy-at-home-picture-id1178170274?s=612x612" class="card-img-top" alt="criança sorrindo">
-                            <div class="card-body">
-                                <h5 class="card-title">Caio</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted"></small></p>
-                            </div>
+
+
+
+
+                        <div class="button">
+                            <a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button"
+                                aria-disabled="true">Começar Agora!</a>
                         </div>
-                        <div class="card">
-                            <img src="https://media.istockphoto.com/photos/happy-little-girl-having-fun-using-a-computer-at-home-picture-id636691990?s=612x612" class="card-img-top" alt="criança">
-                            <div class="card-body">
-                                <h5 class="card-title">Beatriz</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted"></small></p>
-                            </div>
-                        </div>
-                    </div>
+
+
+                    </section>
+
+                </main>
 
 
 
+                <footer class="footer footer-dark" style="background-color: #34377A">
+                    <%- include('./partials/footer.ejs') %>
+                </footer>
 
-                <div class="button">
-                    <a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Começar Agora!</a>
-                </div>  
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                    crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
+    </body>
 
-
-            </section>
-
-        </main>
-
-
-
-        <footer class="page-footer">
-            <h5 class="white-text">Siga nossas redes sociais</h5>
-                <ul>
-                    <h6 class="white-text">contato@meutesourinho.com<h6>
-                    <a href="http://www.facebook.com">Facebook</a>
-                    <br>
-                    <a href="http://www.instagram.com">Instagram</a>
-                    <br>
-                    <a href="http://www.youtube.com">Youtube</a>
-                </ul>
-                <p>COPYRIGHT Lovelace Code</p>
-        </footer>
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
 </html>
