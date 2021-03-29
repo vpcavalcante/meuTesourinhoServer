@@ -12,6 +12,9 @@ var contatoRouter = require('./routes/contato')
 var usuarioRouter = require('./routes/usuario')
 
 
+var headRouter = require('./routes/head')
+var headerRouter = require('./routes/header')
+var footerRouter = require('./routes/footer')
 
 var app = express();
 
@@ -26,6 +29,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+app.use('/head', headRouter);
+app.use('/header', headerRouter);
+app.use('/footer', footerRouter);
 app.use('/users', usersRouter);
 app.use('/dashboard', dashboardRouter);
 app.use('/faq', faqRouter);
