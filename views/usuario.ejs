@@ -1,196 +1,125 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Meu Tesourinho</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link href='./usuarios.css' rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../usuario.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <title>Document</title>
 </head>
 <body>
-
-
-
- 
-  <!--fim-->
-<div class="container">
-<div class="container mt-3">
-
-  
-  
-  <h2 class="h2config"><svg id="iconeconfig" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-sliders" viewBox="0 0 16 16">
+  <h1 class="h2config"><svg id="iconeconfig" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-sliders" viewBox="0 0 16 16">
     <path fill-rule="evenodd" d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3h9.05zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8h2.05zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1h9.05z"/>
-  </svg> Configuração </h2>
-  <br>
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs">
-   <!-- <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu0">Dados do Perfil</a>
-    </li>-->
-    <li class="nav-item ">
-      <a class="nav-link" data-toggle="tab" href="#menu1">Alterar Senha </a>
-    </li>
-    <li class="nav-item ">
-      <a class="nav-link" data-toggle="tab" href="#menu2">Alterar Usuário</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#menu3">Relatar um problema</a>
-      </li>
-  </ul>
+  </svg> Configuração </h1>
+<hr>
 
-  <!-- Tab panes --> 
-  
-<!--<div class="dados">
-  
-   <div class="row">
-    <div class="col-3">
-       <h3 class="titulosh3">Dados do Perfil</h3>     
-    </div>                                                                            
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br>
-
-      <h1>Dados</h1>
-      
-        <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Nome" aria-label="Nome" disabled>
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Last name" disabled>
-            </div>
-          </div><br>
-
-          <form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label"></label>
-              <input type="email" class="form-control" id="inputEmail4" placeholder="Email" disabled>
-              
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label"></label>
-              <input type="text" class="form-control" id="inputIdade"   placeholder="Idade"  disabled>
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label"></label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Meu Objetivo"disabled>
-            </div>
-         
-
-              </select>
-            </div>
-            </form>
-    </div>
-           
-           
-                
-              </div>
-            </div>-->
-            
-          </form>
-    </div><br><br>
-
-    <div id="menu1" class="container tab-pane fade"><br>
-      <div class="col-3">
-        <h3 class="titulosh3">Alterar senha</h3>
-      </div><br>
-      <div class="row g-3 align-items-center">
-        <div class="col-3">
-          <label for="inputPassword6" class="col-form-label">Senha Atual</label>
-        </div>
-        <div class="col-4">
-          <input type="password" id="inputPassword6" class="form-control" placeholder="8-20 caracteres."  aria-describedby="passwordHelpInline">
-        </div>
-        <div class="col-3">
-          <span id="passwordHelpInline" class="form-text">
-            
-          </span>
-        </div>
-      </div><br>
-      <div class="row g-3 align-items-center">
-        <div class="col-3">
-          <label for="inputPassword6" class="col-form-label">Nova Senha</label>
-        </div>
-        <div class="col-4">
-          <input type="password" id="inputPassword6" class="form-control" placeholder="8-20 caracteres." aria-describedby="passwordHelpInline">
-        </div>
-        <div class="col-3">
-          <span id="passwordHelpInline" class="form-text">
-          </span>
-        </div>
-      </div><br>
-      <div class="row g-3 align-items-center">
-        <div class="col-3">
-          <label for="inputPassword6" class="col-form-label">Confirme sua senha</label>
-        </div>
-        <div class="col-4">
-          <input type="password" id="inputPassword6" class="form-control" placeholder="8-20 caracteres."aria-describedby="passwordHelpInline">
-        </div>
-          <br><br>
-          <!-- Botão para acionar modal -->
-<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalExemplo">
-  Enviar
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Salvar Senha</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Deseja mudar Senha?
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-info">Salvar mudanças</button>
-      </div>
-    </div>
+<div class="container-flex" id="">
+    <div class="row justify-content-center" >
+      <div class="col-fluid  p-3 border" id="perfil">
+<img src="https://image.freepik.com/vetores-gratis/perfil-de-avatar-de-crianca_18591-50926.jpg" class="img-thumbnail" width="250" alt="foto perfil">
+<legend class="perfil">Perfil Usuário </legend>
+  <label for="text" class="col-form-label">Usuário</label>
+<input class="form-control" type="text" placeholder="Fulaninho123" aria-label="readonly input example" readonly id="form-control1"><br>
+   <label for="email" class="col-form-label">E-mail</label>
+<input class="form-control" type="text" placeholder="Fulaninho@abc.com.br..." aria-label="readonly input example" readonly id="form-control1"><br>
+    <label for="text" class="col-form-label">Objetivo</label>
+<input class="form-control" type="text" placeholder="Video game" aria-label="readonly input example" readonly id="form-control1"><br>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
   </div>
 </div>
- </div>
-    </div>
-    <div id="menu2" class="container tab-pane fade"><br>
-      <h3 class="titulosh3">Alterar Usuário</h3>
+
+<div class="col" id="privacidade">
+<h2>Privacidade</h2><br>
+
+
+
+
+<div class="col-sm-5 col-md-6" id="senha1">
+
+    <h3>Trocar Senha</h3>
+
+    <form class="form">
+    <div class="form-group">
+      <label for="inputPassword6">Senha Atual</label>
+      <input type="password" id="inputPassword6" class="form-control mx-md-5" placeholder="Must be 8-20 characters long." aria-describedby="passwordHelpInline">
+     <!-- <small id="passwordHelpInline" class="text-muted">
+        
+      </small>-->
+    </div><br><br>
+  </form>
+  <form class="form">
+  <div class="form-group">
+    <label for="inputPassword6">Nova Senha</label>
+    <input type="password" id="inputPassword6" class="form-control mx-md-5" placeholder="Must be 8-20 characters long." aria-describedby="passwordHelpInline">
+    <!--<small id="passwordHelpInline" class="text-muted">
+      Must be 8-20 characters long.
+    </small>-->
+  </div><br><br>
+    </form>
+  <form class="form">
+  <div class="form-group">
+    <label for="inputPassword6">Confirme Senha</label>
+    <input type="password" id="inputPassword6" class="form-control mx-sm-3" placeholder="Must be 8-20 characters long." aria-describedby="passwordHelpInline">
+    <!--<small id="passwordHelpInline" class="text-muted">
+      Must be 8-20 characters long.
+    </small>-->
+  </div> 
+   </form>
+ 
+   <br><br>   
+
+       <!-- Botão para acionar modal -->
+       <button id="btenviar" type="button" class="btn btn-info" data-toggle="modal" data-target="#ModalLongoExemplo">
+        Enviar
+        </button>
+      
+        
+
+  </div><br><br>
+
+
+
+
+    <div id="senha1" class="col-sm-5 col-md-6"><br>
+      <h3 class="titulosh3">Alterar Usuário <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+      </svg></h3>
 
       <div class="input-group flex-nowrap">
         <span class="input-group-text" id="addon-wrapping">Usuário atual</span>
         <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
-      </div><br>
-      <div class="input-group flex-nowrap">
+        </div><br>
+       <div class="input-group flex-nowrap">
         <span class="input-group-text" id="addon-wrapping">Novo Usuário</span>
         <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
-      </div><br>
-      <div class="input-group flex-nowrap">
+       </div><br>
+       <div class="input-group flex-nowrap">
         <span class="input-group-text" id="addon-wrapping">Confirme Usuário</span>
         <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
       </div>
       <br><br>
       <!-- Botão para acionar modal -->
-<button id="btenviar" type="button" class="btn btn-info" data-toggle="modal" data-target="#ModalLongoExemplo">
+  <button id="btenviar" type="button" class="btn btn-info" data-toggle="modal" data-target="#ModalLongoExemplo">
   Enviar
-</button>
+  </button>
 
-<!-- Modal -->
-<div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+  <!--modal-->
+ <div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="TituloModalLongoExemplo">Título do modal</h5>
+        <h5 class="modal-title" id="TituloModalLongoExemplo">Alterar</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        Deseja mudar Usuário?
+        Deseja mudar ?
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -200,25 +129,44 @@
   </div>
 </div>
 
-          
-      
-    </div>
-    <div id="menu3" class="container tab-pane fade"><br>
-        <h3>Relatar um Problema</h3>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Qual o problema?</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-      </div>
-  </div>
+</div><br><br>
+
+<!--acccodion-->
+
+<!--Excluir conta-->
+<div class="container" id="excluir">
+  <div class="row justify-content-start" >
+    <div class="col-sm-5 col-md-11" id="">
+    <h3><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-exclamation-diamond" viewBox="0 0 16 16">
+      <path d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z"/>
+      <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+    </svg>Excluir Conta</h3>
+  <h6 id="textexcluir">Você pode desativar sua conta ao invés de excluí-la, assim você poderá retornar a qualquer momento.</h6>
+<br>
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pause" viewBox="0 0 16 16">
+    <path d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
+  </svg><a href="" id="link1">Desativar conta temporariamente</a><br><br>
+
+  <svg id="fi_3413241" height="30" viewBox="0 0 74 74" width="30" xmlns="http://www.w3.org/2000/svg" data-name="line Icons"><path d="m52.8 72h-31.6a5.11 5.11 0 0 1 -5.094-4.8l-2.841-47.132a1 1 0 0 1 1-1.06h45.472a1 1 0 0 1 1 1.06l-2.847 47.132a5.11 5.11 0 0 1 -5.09 4.8zm-37.475-50.992 2.781 46.076a3.108 3.108 0 0 0 3.094 2.916h31.6a3.108 3.108 0 0 0 3.1-2.917l2.781-46.076z"></path>
+    <path d="m62.646 21.008h-51.292a1 1 0 0 1 -1-1v-4.237a7.163 7.163 0 0 1 7.155-7.155h38.983a7.163 7.163 0 0 1 7.155 7.155v4.237a1 1 0 0 1 -1.001 1zm-50.293-2h49.293v-3.237a5.161 5.161 0 0 0 -5.155-5.155h-38.983a5.161 5.161 0 0 0 -5.155 5.155z"></path>
+    <path d="m46.232 10.616h-18.464a1 1 0 0 1 -1-1v-3.539a4.082 4.082 0 0 1 4.077-4.077h12.31a4.082 4.082 0 0 1 4.077 4.077v3.539a1 1 0 0 1 -1 1zm-17.464-2h16.464v-2.539a2.079 2.079 0 0 0 -2.077-2.077h-12.31a2.079 2.079 0 0 0 -2.077 2.077z"></path>
+    <path d="m47.065 61.739a1 1 0 0 1 -1-1v-29.577a1 1 0 1 1 2 0v29.577a1 1 0 0 1 -1 1z"></path>
+    <path d="m37 61.739a1 1 0 0 1 -1-1v-29.577a1 1 0 1 1 2 0v29.577a1 1 0 0 1 -1 1z"></path>
+    <path d="m26.935 61.739a1 1 0 0 1 -1-1v-29.577a1 1 0 0 1 2 0v29.577a1 1 0 0 1 -1 1z"></path></svg><a href="" >Excluir conta definitivamente</a>
+
+
 </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 </html>
