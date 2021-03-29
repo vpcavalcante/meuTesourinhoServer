@@ -172,3 +172,52 @@ a.f-link {
   text-align:center;
 }
 
+/* INDEX */
+
+.banner{
+  background-color: #FFA746;
+  width: 100%;
+  padding: 2%;
+}
+
+.imagem-carousel{
+  object-fit: cover;
+  height: 100px;
+
+}
+
+.titulo-principal-index{
+  text-align: center;
+  color:#34377A;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding: 3%;
+}
+
+.featurette{
+  color:#34377A;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 3%;
+}
+
+
+.textos-index{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: justify
+
+}
+
+
+
+.button-index{
+  text-align: center;
+  padding: 3%;
+}
+
+
