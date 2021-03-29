@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var dashboardRouter = require('./routes/dashboard');
 var faqRouter = require('./routes/faq');
 var contatoRouter = require('./routes/contato')
+var usuarioRouter = require('./routes/usuario')
 
 
 
@@ -30,6 +31,7 @@ app.use('/dashboard', dashboardRouter);
 app.use('/faq', faqRouter);
 app.use('/contato', contatoRouter);
 app.use('/index', indexRouter);
+app.use('/usuario', usuarioRouter);
 
 
 // catch 404 and forward to error handler
