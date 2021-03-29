@@ -2,38 +2,41 @@
 <html lang="pt-br">
 <%- include('./partials/head.ejs') %>
     <main>
+
         <body>
             <%- include('./partials/header.ejs') %>
                 <section>
-                    <!---Título da Página-->
-                    <div>
-                        <br>
-                        <h1 class="title-faq">Você tem alguma dúvida?</h1>
-                    </div>
                     <!--Perguntas/Dúvidas-->
-                    <div class="row" id="faq">
+                    <div class="row faq-questions">
                         <div class="col-1"></div>
                         <div class="col-10">
-                            <h2 class="faq" data-toggle="collapse" data-target="#first-question"> Quais são as formas de
+                            <div class="row">
+                                <br>
+                                <h1 class="title-faq">Você tem alguma dúvida?</h1>
+                                <img class="pirate-faq" src="images/pirate_faq.png" alt="pirate image" height="220vh">
+                            </div>
+                            <h2 class="faq-duvida" data-toggle="collapse" data-target="#first-question"> Quais são as
+                                formas de
                                 pagamento?
                             </h2>
                             <p class="reply" id="first-question" class="collapse in">O pagamento pode ser realidade
                                 mensalmente
                                 com
                                 cartão de crédito, débito ou boleto.</p>
-                            <h2 class="faq" data-toggle="collapse" data-target="#second-question">Como funciona a
+                            <h2 class="faq-duvida" data-toggle="collapse" data-target="#second-question">Como funciona a
                                 plataforma?
                             </h2>
                             <p class="reply" id="second-question" class="collapse in">O usuário define um objetivo e
                                 segue uma
                                 trilha de desafios para alcançar o seu tão esperado tesourinho.</p>
-                            <h2 class="faq" data-toggle="collapse" data-target="#third-question">Qual é a idade
+                            <h2 class="faq-duvida" data-toggle="collapse" data-target="#third-question">Qual é a idade
                                 recomendada para
                                 começar a usar?</h2>
                             <p class="reply" id="third-question" class="collapse in">A plataforma é recomendada para
                                 crianças a
                                 partir de 10 anos.</p>
-                            <h2 class="faq" data-toggle="collapse" data-target="#fourth-question">Como conseguir novas
+                            <h2 class="faq-duvida" data-toggle="collapse" data-target="#fourth-question">Como conseguir
+                                novas
                                 skins
                                 para o
                                 seu avatar?</h2>
@@ -50,9 +53,9 @@
                 </section>
                 <!--Formulário de Contato-->
                 <section>
-                    <div class="row" id="form">
+                    <div class="row form-questions">
                         <div class="col-1"></div>
-                        <div class="col-10" id="form">
+                        <div class="col-10 form-box">
                             <form action="/faq" method="POST">
                                 <h1 class="contact-form">Entre em contato com a gente!</h1>
                                 <label for="name">Nome Completo:</label>
@@ -109,4 +112,5 @@
                     crossorigin="anonymous"></script>
         </body>
     </main>
+
 </html>
