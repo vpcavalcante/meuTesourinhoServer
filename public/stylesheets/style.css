@@ -212,8 +212,11 @@ a.f-link {
   text-align: justify
 
 }
-
-
+.carousel-caption{
+  color: #0a0b25;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 .button-index{
   text-align: center;
