@@ -26,16 +26,40 @@ collapse navbar-collapse {
     color: white;
     font-family: 'Poppins', sans-serif;
     border-radius: 5px;
+    margin-left: 155%;
 }
   
 .start-button {
-    background-color: #33A9AB; 
-    border:none;
-    width: auto;
+  background-color: #33A9AB; 
+  border: none;
+  width: 25vh;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+}
+
+@media (max-width:768px) {
+  .login-button {
+    width: 25vh;
+    background-color: #141750; 
+    border: none;
     color: white;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 5px;
     border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5px
+  }
+  
+.start-button {
+  background-color: #33A9AB; 
+  border: none;
+  width: 25vh;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  margin-bottom: 8px
+  }
 }
 
 /*FAQ*/
@@ -152,13 +176,15 @@ p.copyright {
 }
 
 img.footer-logo {
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 90%
 }
 
 @media (max-width: 768px) {
   .footer-logo {
+    display:block;
     height: 16vh;
+    margin-right: auto;
+    margin-left: 10%;
   };
 }
 
@@ -189,11 +215,17 @@ a.f-link {
 
 }
 
+@media (min-width: 768px) {
+  .icons-social {
+    padding: auto;
+    align-content: right;
+    margin-right: 10%
+  }
+}
+
 .icon-contact {
   align-content: center;
-  width: 3vh;
-  margin-left: auto;
-  margin-right: auto;
+  width: 4vh;
 }
 
 .contact-area {
