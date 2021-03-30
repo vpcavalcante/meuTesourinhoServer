@@ -25,33 +25,69 @@ collapse navbar-collapse {
     width: 21vh;
     color: white;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 5px;
     border-radius: 5px;
+    margin-left: 155%;
 }
   
 .start-button {
-    background-color: #33A9AB; 
-    border:none;
-    width: auto;
+  background-color: #33A9AB; 
+  border: none;
+  width: 25vh;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+}
+
+@media (max-width:768px) {
+  .login-button {
+    width: 25vh;
+    background-color: #141750; 
+    border: none;
     color: white;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 5px;
     border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5px
+  }
+  
+.start-button {
+  background-color: #33A9AB; 
+  border: none;
+  width: 25vh;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  margin-bottom: 8px
+  }
 }
 
 /*FAQ*/
-h1.title-faq {
+.title-faq {
   color:#34377A;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  font-size: 25px;
-  text-align: center
+  font-size: 35px;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
+@media (max-width: 768px) {
+  #title-faq { color:#34377A;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center
+  }
+}
+
 form {
   background-color: #33A9AB;
   font-family: 'Poppins', sans-serif;
   padding: 2vh;
   color: white;
+  border-radius: 5px;
 }
 
 h1.contact-form {
@@ -62,19 +98,25 @@ h1.contact-form {
   text-align: center;
 }
 
-.faq {
+.faq-duvida {
   background-color:#FFA746;
   font-family: 'Poppins', sans-serif;
-  font-size:15px;
+  font-size:18px;
   font-weight: bold;
   align-self: center;
   text-align: center;
   color: white;
   border: none;
-  border-radius: none;
+  border-radius: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 5px
+}
+
+@media (max-width:768px) {
+  .faq-duvida {
+    font-size: 15px
+  }
 }
 .reply {
   text-align: center
@@ -91,6 +133,34 @@ h1.contact-form {
   width: 15vh;
 }
 
+@media (min-width:768px) {
+  .faq-questions {
+    width: 50%;
+    float: left;
+    padding-top: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+  };
+  .form-questions {
+    width: 50%;
+    float: right;
+    padding-top: 30%
+  };
+}
+
+@media (min-width:768px) { 
+  .form-box {
+    width: 60%;
+    padding-top: 5%;
+    padding-bottom: 15px
+  };
+}
+
+.pirate-faq {
+  display: block;
+  margin-left: auto;
+  margin-right:auto
+}
 
 /*Footer*/
 a.f-link {
@@ -106,42 +176,81 @@ p.copyright {
 }
 
 img.footer-logo {
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto
+}
+
+@media (max-width: 768px) {
+  .footer-logo {
+    display:block;
+    height: 16vh;
+    margin-right: auto;
+    margin-left: auto;
+  };
 }
 
 .sitemap {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
-  padding-top: 8px;
+  flex-direction: column;
+  padding: auto;
+  margin: 2px;
+  float: left
+}
+
+@media (max-width:768px) {
+  .sitemap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: auto;
+  }
 }
 
 a.f-link {
   text-align: center;
-  align-self: center
+  align-self: center;
+  margin: 4px;
+  font-size: 15px
+}
+
+@media (max-width:768px) {
+  .f-link {
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    padding-top: 3px;
+  }
 }
 
 .icon-social {
-  display: flex;
-  flex-wrap: wrap;
   align-content: center;
   width: 6vh;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0
 }
 
 .icons-social {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   align-content: center;
-  padding: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
+@media (max-width: 768px) {
+  .icons-social {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .icon-contact {
   align-content: center;
-  width: 3vh;
-  margin-left: auto;
-  margin-right: auto;
+  width: 4vh;
+  margin: 1vh
 }
 
 .contact-area {
