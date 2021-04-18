@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var dashboardRouter = require('./routes/dashboard');
 var faqRouter = require('./routes/faq');
-var contatoRouter = require('./routes/contato')
+var loginRouter = require('./routes/login')
 var headRouter = require('./routes/head')
 var headerRouter = require('./routes/header')
 var footerRouter = require('./routes/footer')
@@ -32,7 +32,7 @@ app.use('/footer', footerRouter);
 app.use('/users', usersRouter);
 app.use('/dashboard', dashboardRouter);
 app.use('/faq', faqRouter);
-app.use('/contato', contatoRouter);
+app.use('/login', loginRouter);
 app.use('/index', indexRouter);
 
 // catch 404 and forward to error handler
