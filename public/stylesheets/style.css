@@ -86,12 +86,8 @@ collapse navbar-collapse {
   text-align: center
   }
 }
-<<<<<<< HEAD
-form.form-faq {
-=======
 
 form {
->>>>>>> 82a5cbf21a7f8a813fe412cb740d12b5e7e2d5b3
   background-color: #33A9AB;
   font-family: 'Poppins', sans-serif;
   padding: 2vh;
@@ -290,7 +286,6 @@ a.f-link {
   text-align:center;
 }
 
-<<<<<<< HEAD
 /* INDEX */
 
 .banner{
@@ -343,7 +338,6 @@ a.f-link {
 }
 
 
-=======
 label {
   display: inline-block;
   margin: 10px 0;
@@ -421,4 +415,3 @@ input[type='number'] {
 .transactions li:hover .delete-btn {
   opacity: 1;
 }
->>>>>>> 4cfb2ac9b3d0f4f951ff9f746af4216142e4517c
