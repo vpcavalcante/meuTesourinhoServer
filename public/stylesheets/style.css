@@ -19,46 +19,51 @@ collapse navbar-collapse {
   text-align: center
 }
 
+
 .login-button {
     background-color: #141750; 
     border: none;
-    width: 21vh;
+    width: 50px;
     color: white;
     font-family: 'Poppins', sans-serif;
-    border-radius: 5px;
-    margin-left: 155%;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px
 }
-  
 .start-button {
-  background-color: #33A9AB; 
-  border: none;
-  width: 25vh;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  border-radius: 5px;
+      background-color: #33A9AB; 
+      border: none;
+      width: 25vh;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      border-radius: 8px;
+      padding: 5px;
+      padding-left: 7px;
+      padding-right: 7px;
 }
+
 
 @media (max-width:768px) {
   .login-button {
-    width: 25vh;
+    width: 10;
     background-color: #141750; 
     border: none;
     color: white;
     font-family: 'Poppins', sans-serif;
     border-radius: 5px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:5px
   }
-  
-.start-button {
+  .start-button {
   background-color: #33A9AB; 
   border: none;
   width: 25vh;
   color: white;
   font-family: 'Poppins', sans-serif;
   border-radius: 5px;
-  margin-bottom: 8px
+  margin-bottom: 10%
   }
 }
 
