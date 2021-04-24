@@ -8,10 +8,6 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/login');
 var dashboardRouter = require('./routes/dashboard');
 var faqRouter = require('./routes/faq');
-<<<<<<< HEAD
-var loginRouter = require('./routes/login')
-=======
->>>>>>> 9504605241dba875af29154c7d9859cf81453feb
 var headRouter = require('./routes/head')
 var headerRouter = require('./routes/header')
 var footerRouter = require('./routes/footer')
@@ -40,10 +36,6 @@ app.use('/footer', footerRouter);
 app.use('/users', usersRouter);
 app.use('/dashboard', dashboardRouter);
 app.use('/faq', faqRouter);
-<<<<<<< HEAD
-app.use('/login', loginRouter);
-=======
->>>>>>> 9504605241dba875af29154c7d9859cf81453feb
 app.use('/index', indexRouter);
 app.use('/cadastro', cadastroRouter);
 app.use('/error', errorRouter);
