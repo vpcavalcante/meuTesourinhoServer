@@ -1,6 +1,7 @@
 const index = (req,res)=>{
-    res.rend('index')
+    res.render('index')
 }
+
 module.exports = {
     index,
 }
