@@ -5,6 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
+<<<<<<< HEAD
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
@@ -12,6 +13,13 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/bin/www"
+=======
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+>>>>>>> 82a5cbf21a7f8a813fe412cb740d12b5e7e2d5b3
         }
     ]
 }
