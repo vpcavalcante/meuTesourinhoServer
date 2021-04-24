@@ -5,48 +5,36 @@
 
         <body>
             <!--Formulário de Login-->
-            <section>
-                <div class="row form-questions">
-                    <div class="col-1"></div>
-                    <div class="col-10 form-box">
-                        <form action="/faq" method="POST">
-                            <h1 class="contact-form">Entre em contato com a gente!</h1>
-                            <label for="name">Nome Completo:</label>
-                            <br>
-                            <input class="form-control" id="name" name="name" type="text" placeholder="Nome">
-                            <br>
-                            <label for="e-mail">E-mail:</label>
-                            <br>
-                            <input class="form-control" type="e-mail" id="e-mail" name="e-mail" placeholder="E-mail">
-                            <br>
-                            <label for="phone">Telefone:</label>
-                            <br>
-                            <input class="form-control" type="number" id="phone" name="phone" placeholder="Telefone">
-                            <br>
-                            <div class="radio">
-                                <label><input type="radio" name="type-client" checked> Já sou cliente </label>
-                                <label><input type="radio" name="type-client"> Não sou cliente </label>
+            <section class="form-login">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-sm-12 col-md-8 col-lg-6 col-xl-4">
+                        <form action="/login" method="POST">
+                            <h1 class="welcome-login">Olá marujo</h1>
+
+                            <div class="form-group">
+                                <label for="e-mail">E-mail:</label>
+                                <br>
+                                <input class="form-control" type="e-mail" id="e-mail" name="e-mail"
+                                    placeholder="E-mail">
                             </div>
-                            <select class="form-control" name="selected">
-                                <option disabled selected>Assunto</option>
-                                <option>Quero tirar dúvidas com um consultor</option>
-                                <option>Problemas com Pagamento</option>
-                                <option>Problemas com a Plataforma</option>
-                                <option>Outro</option>
-                                <option>Elogios</option>
-                            </select>
                             <br>
-                            <label for="message">Mensagem:</label>
-                            <br>
-                            <input class="form-control" type="text" id="message" name="message" placeholder="Mensagem">
-                            <br>
-                            <button class="form-button" type="submit">Enviar</button>
+
+                            <div class="form-group">
+                                <label for="password">Senha</label>
+                                <br>
+                                <input class="form-control" type="password" id="password" name="password"
+                                    placeholder="Senha">
+                                <br>
+                            </div>
+                            <div class="form-group">
+                                <button class="" type="submit">Enviar</button>
+                            </div>
                         </form>
                     </div>
-                    <div class="col-1"></div>
                 </div>
                 <br>
             </section>
+
             <!--Rodapé com Mapa do Site-->
             <footer class="footer footer-dark" style="background-color: #34377A">
                 <%- include('./partials/footer.ejs') %>

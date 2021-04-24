@@ -281,3 +281,24 @@ a.f-link {
   text-align:center;
 }
 
+
+/* login */
+/*.form-login {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}*/
+
+.login {
+  padding-top: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-size:15px;
+};
+
+h1.welcome-login {
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
